@@ -9,7 +9,7 @@ async function main() {
   const fakeNftMarketplace = await FakeNFTMarketplace.deploy();
   await fakeNftMarketplace.deployed();
 
-  // FakeNFTMarketplace deployed to:  0x4fB16D1EA05e6294B4cE8334E7AC6d1aEa7bfB08
+  // FakeNFTMarketplace deployed to:  0xfcCD823416e0B73A5181ac83eD225A7473792B7b
   console.log("FakeNFTMarketplace deployed to: ", fakeNftMarketplace.address);
 
   //Deploy CryptoDevsDAO
@@ -23,7 +23,7 @@ async function main() {
   );
   await cryptoDevsDAO.deployed();
 
-  // CryptoDevsDAO deployed to:  0x09B7F79886e67E3cE3a63617b4D553E96596e720
+  // CryptoDevsDAO deployed to:  0x91dC9839DBcca9D708073192084c78a77ed2cd81
   console.log("CryptoDevsDAO deployed to: ", cryptoDevsDAO.address);
 }
 
